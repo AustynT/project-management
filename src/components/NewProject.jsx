@@ -1,5 +1,5 @@
 import React from 'react'
-import Input from "./Input";
+import Input from "./Input.jsx";
 
 export default function NewProject() {
     return <div className='w-[35rem mt-16]'>
