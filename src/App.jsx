@@ -1,13 +1,14 @@
 import React from 'react'
-import ProjectsSidebar from "./components/ProjectsSidebar";
-import NewProject from './components/NewProject';
+import ProjectsSidebar from "./components/ProjectsSidebar.jsx";
+import NewProject from './components/NewProject.jsx';
+import NoProjectSelected from './components/NoProjectSelected.jsx';
 
 
 function App() {
   return (
-    <main className="h-screen my-8 flex gap-8 ">
+    <main className="h-screen my-8 flex gap-8">
       <ProjectsSidebar />
-      <NewProject />
+      <NoProjectSelected />
     </main>
   );
 }
